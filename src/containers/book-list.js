@@ -1,6 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
 import { connect } from 'react-redux';
+import { selectBook } from '../actions/index';
+import { bindActionCreators } from 'redux';
 
 class BookList extends React.Component{
 	renderList(){
@@ -26,4 +28,8 @@ function matchStateToProps(state){
 	};
 }
 
-export default connect(matchStateToProps)(BookList);
+function mapDispatchToProps(dispatch){
+	bindActionCreators({selectBook:selectBook},dispatch);
+}
+
+export default connect(matchStateToProps, mapDispatchToProps)(BookList);
