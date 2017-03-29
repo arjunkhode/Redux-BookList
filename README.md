@@ -1,5 +1,7 @@
 # React and Redux BookList app 📚
 
+![Book list](https://github.com/arjunkhode/Redux-BookList/blob/master/BookList-pic.png)
+
 ## Redux
 
 * Is in charge of managing the entire state
