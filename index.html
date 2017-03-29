@@ -6,6 +6,52 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
   </head>
   <body>
+<style>
+html{
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+}	
+body{
+	display:flex;
+	flex-flow: row nowrap;
+	background: linear-gradient(35deg, red, maroon);
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+.container{
+		flex: 0 1 70%;
+		height: 100%;
+}
+.app{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+.booklist{
+	padding: 20px;
+	flex: 0 1 40%;
+	background: rgba(0,0,0,0.4);
+}
+.booklist ul li:hover {
+	background: rgba(255,255,255,0.4);
+}
+.bookdetail{
+	flex: 0 1 60%;
+	padding: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
+</style>
     <div class="container"></div>
   </body>
   <script src="/bundle.js"></script>

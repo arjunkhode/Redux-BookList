@@ -14,9 +14,11 @@ class BookList extends React.Component{
 	}
 	render(){
 		return(
-			<ul className="list-group col-md-4">
-			{this.renderList()}
-			</ul>
+
+				<ul className="list-group col-md-4">
+				{this.renderList()}
+				</ul>
+
 			);
 	}
 }

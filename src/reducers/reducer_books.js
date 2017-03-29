@@ -1,8 +1,9 @@
 export default function () {
   return [
-	{title: 'JS good', pages:100},
-	{title: 'Harry p',pages:200},
-	{title: 'dark t',pages:300},
-	{title: 'nice run',pages:400},
+	{title: 'JS: The Good Parts', pages:100, author: 'Douglas Crockford'},
+	{title: 'The Brothers Karamazov',pages:200, author: 'Fyodor Dostoevsky'},
+	{title: 'Many Lives Many Masters',pages:300, author: 'Brian Weiss'},
+	{title: 'War and Peace',pages:400, author: 'Leo Tolstoy'},
+	{title: 'The Fountainhead',pages:500, author: 'Ayn Rand'},
 	]
 }
